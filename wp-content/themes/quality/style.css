@@ -1,0 +1,2104 @@
+/*
+Theme Name: Quality
+Theme URI: http://webriti.com/quality-lite-version-details-page/
+Author: Webriti
+Author URI: http://webriti.com/
+Description: Business theme which is ideal for creating a corporate / business website.It boasts of 2 beautifully designed page templates , Home and Blog Page.
+Version:  1.4
+Tags: white, red,pink , full-width-template, threaded-comments, custom-menu, two-columns,translation-ready , custom-background , sticky-post,featured-images,theme-options,responsive-layout
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: quality
+* Quality Css created By Shahid - Scientech IT
+*/
+
+/*!
+ * Quality Css created By Shahid - Scientech IT
+*/
+
+#wrapper{	
+	margin: 0px auto;
+    /* left: 0;
+    position: relative; 
+    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;*/
+}
+a:focus{
+	outline: none;
+}
+a:hover,a:focus{ 
+color: #F8504B ;
+text-decoration:none !important;
+}
+.row {
+    margin-left: 0px ;
+    margin-right: 0px ;
+} 
+
+.margin{
+margin-top:70px;
+}
+.page-seperator {
+	height: 1px;
+	margin: 0 0 62px;
+}
+.qua-separator-small{
+	height: 3px;	
+	text-align:center;
+	width: 50px;
+}
+.row a{
+	text-decoration:none;
+}
+.caroufredsel_wrapper{
+	max-height: 100% !important;
+}
+
+/* Header Contact Details---------------------------------------------------------------------------------------*/
+.qua-head-detail{
+	background: #f8504b;
+	padding: 10px 0;
+}
+.head-contact-info {
+	margin: 10px 0 0;
+	padding: 0px;
+	display: block;
+	float: left;
+}
+.head-contact-info li {
+	display: inline-block;
+	padding: 0px;
+	margin-right: 15px;
+	color: #ffffff;
+	font-size: 14px;
+}
+.head-contact-info i {
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+.head-contact-social{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+.head-contact-social li {
+    background-color: transparent;
+	border: 2px solid #ffffff;
+    border-radius: 100% 100% 100% 100%;
+    display: inline-block;
+    height: 33px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 33px;
+    text-align: center;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+    padding: 1px;
+	cursor: pointer;
+}
+.head-contact-social li:last-child{
+	margin-right:0px;
+}
+.head-contact-social li > a > i {
+	font-size: 14px;
+    transition: color 0.5s ease-in-out 0s;
+	line-height: 2;
+}
+
+
+
+/* Flex Slider Css --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.qua_slider{
+	width: 100%;
+	margin: 0 0 80px;
+}
+.carousel{
+	width: 100%; 
+	height: auto;
+}
+
+.slide_icon {
+	opacity: 1;
+    transition-duration: 0.5s;
+    border-radius: 100%;
+    font-size: 18px;
+    height: 42px;
+    line-height: 35px !important;
+    margin: 0 15px 0 0;
+    text-align: center;
+    width: 42px;
+	text-shadow: none;
+}
+
+.flex-direction-nav a > i{
+	font-size: 18px;
+
+}
+
+/* Flex Slider Center Align */
+.slides li{
+	position: relative;
+}
+.flex-slider-center {
+    left: 0;
+	right: 0;
+    position: absolute;
+    margin: 0px auto;
+	text-align: center;
+    /* width: 1120px; */
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	padding: 20px;
+    float: none;
+	
+	top: 50%; 
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.flex-slider-center h2 {
+	color: #FFFFFF;
+	font-family: 'Open Sans';
+	font-weight:300;
+	font-size: 55px;
+	font-weight: normal;
+	line-height: 70px;
+	letter-spacing: 0;
+	display: inline-block;
+	text-align: center;
+	margin: 0px 0px 20px;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex-slider-center span {
+	background-color: rgba(248,80,75,0.7);
+	color: #FFFFFF;
+	margin: 0px 0px 20px;
+	font-family: 'Open Sans';
+	font-weight:300;
+	padding: 0px 15px 5px 15px;
+	font-size: 55px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 70px;
+	letter-spacing: 0;
+	display: inline-block;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex-slider-center p {
+	color: #FFFFFF;
+	font-family: 'Open Sans';
+	font-weight:400;
+	padding: 0px 15px 5px 15px;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 35px;
+	letter-spacing: 0;
+	display: inline-block;
+	margin: 0px 0px 20px;
+	text-shadow: 0 3px 2px rgba(0,0,0,0.9);
+}
+.flex_btn_div{
+	text-align:center;
+	display:block;
+}
+.flex_btn {
+    font-family: 'Open Sans';
+	font-weight:400;
+	color: #FFFFFF;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+	padding: 15px 20px;
+    background-color: #f8504b; 
+    display: inline-block;
+    margin-top: 0px;
+	text-align: center;
+    text-transform: uppercase;
+	transition: all 0.4s ease 0s;
+	text-decoration: none !important;
+}
+.flex_btn:hover {
+	background-color: #FFFFFF;
+	color: #f8504b;
+}
+
+/* Flex Slider Left Align */
+.slides li{
+	position: relative;
+}
+.flex-slider-left {
+    left: 0;
+	right: 0;
+    position: absolute;
+    top: 17%;
+	margin: 0px auto;
+	text-align: left;
+    width: 1120px;
+	height: auto;
+	z-index: 0;
+	padding: 20px;
+    float: none;
+}
+.flex-slider-left h2 {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+	font-weight:300;
+    font-size: 70px;
+    font-weight: normal;
+	line-height: 70px;
+    letter-spacing: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: left;
+    margin: 0px 0px 20px;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex-slider-left span{ 
+	background-color: rgba(248, 80, 75, 0.7);
+	color: #FFFFFF;
+	margin: 0px 0px 20px;
+    font-family: 'Open Sans';
+	font-weight:300;
+	padding: 0px 15px 5px 15px;
+    font-size: 70px;
+    font-weight: normal;
+	text-align: left;
+	line-height: 70px;
+    letter-spacing: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex-slider-left p{ 
+	color: #FFFFFF;
+    font-family: 'Open Sans';
+	font-weight:400;
+	padding: 0px 0px 5px 0px;
+    font-size: 30px;
+    font-weight: normal;
+	line-height: 35px;
+    letter-spacing: 0;
+	text-transform: uppercase;
+	display: inline-block;
+    margin: 0px 0px 20px;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex_btn_div_left{
+	text-align: left;
+	display: block;
+}
+.flex_btn {
+   font-family: 'Open Sans';
+	font-weight:400;
+	color: #FFFFFF;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+	padding: 15px 20px;
+    background-color: #f8504b; 
+    display: inline-block;
+    margin-top: 0px;
+	text-align: center;
+    text-transform: uppercase;
+	transition: all 0.4s ease 0s;
+	text-decoration: none !important;
+}
+.flex_btn:hover {
+	background-color: #FFFFFF;
+	color: #f8504b;
+}
+/* Flex Slider Right Align */
+.slides li{
+	position: relative;
+}
+.flex-slider-right {
+    left: 0;
+	right: 0;
+    position: absolute;
+    top: 17%;
+	margin: 0px auto;
+	text-align: right;
+    width: 1120px;
+	height: auto;
+	z-index: 0;
+	padding: 20px;
+    float: none;
+}
+.flex-slider-right h2 {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+	font-weight:300;
+    font-size: 70px;
+    font-weight: normal;
+	line-height: 70px;
+    letter-spacing: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: right;
+    margin: 0px 0px 20px;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex-slider-right span{ 
+	background-color: rgba(248, 80, 75, 0.7);
+	color: #FFFFFF;
+	margin: 0px 0px 20px;
+    font-family: 'Open Sans';
+	font-weight:300;
+	padding: 0px 15px 5px 15px;
+    font-size: 70px;
+    font-weight: normal;
+	text-align: right;
+	line-height: 70px;
+    letter-spacing: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex-slider-right p{ 
+	color: #FFFFFF;
+    font-family: 'Open Sans';
+	font-weight:400;
+	padding: 0px 0px 5px 0px;
+    font-size: 30px;
+    font-weight: normal;
+	line-height: 35px;
+    letter-spacing: 0;
+	text-transform: uppercase;
+	display: inline-block;
+    margin: 0px 0px 20px;
+	text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+}
+.flex_btn_div_right{
+	text-align: right;
+	display: block;
+}
+
+
+/* Homepage Service Section css --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.qua_heading_title {
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0 auto 52px;
+    padding: 0 15px 0px;
+    position: relative;
+    width: 97.4%;
+}
+.qua_heading_title h1 {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 35px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+.qua_heading_title h1 span {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0px 0 8px;
+    text-align: center;
+}
+.qua_heading_title p {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px 0 33px;
+    text-align: center;
+}
+
+/* Homepage Service Section css --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.qua-testimonial{
+/* height: auto !important;
+	margin-bottom: 30px !important; */
+}
+.qua_page_heading {
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0 auto 52px;
+    padding: 0 15px 0px;
+    position: relative;
+    width: 97.4%;
+}
+.qua_page_heading h1 {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0 0 0px;
+    text-align: center;
+	word-wrap: break-word;
+}
+.qua_page_heading h1 span {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 2px 0 8px;
+    text-align: center;
+	word-wrap: break-word;
+}
+.qua_page_heading p {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 8px 0 33px;
+    text-align: center;
+	word-wrap: break-word;
+}
+
+.qua-separator{
+	height: 5px;
+	margin: 37px auto 0;
+	width: 100px;
+}
+.qua-service-area {
+    border-radius: 0;
+    margin-bottom: 70px;
+    padding: 0px 5px 5px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+	text-align: center;
+	
+}
+.qua-service-area a {
+    text-decoration: none;
+}
+.hexagon-box{
+	height: 120px;
+	width: 120px;
+	margin: 0px auto 16px;
+	transition: all 300ms ease-out;
+	-webkit-transition: all 300ms ease-out; 
+	-o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.qua-service-area:hover > .hexagon-box {
+	height: 120px;
+	width: 120px;
+	margin: 0px auto 16px;
+}
+.qua-service-area i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    opacity: 1;
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+.qua-service-area i {
+    border: 0 none;
+    font-size: 70px;
+    line-height: 125px;
+    margin-bottom: 0px;
+}
+.qua-service-area h2 {
+    font-family: 'Open Sans';
+	font-weight:600;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0 10px;
+    text-align: center;
+}
+.qua-service-area h2 > a {
+    transition: all 0.4s ease 0s;
+}
+.qua-service-area p {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    padding: 0 20px;
+    text-align: center;
+}
+.qua-service-area p > a {
+    font-family: 'Open Sans';
+	font-weight:600;
+	transition: all 0.4s ease 0s;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+
+/***** Call Out Section *****************************************************************
+***************************************************************************************/
+.qua_callout_area{
+	width:100%;
+	padding: 20px 0;
+}
+.qua_callout_area h2{
+	font-family: 'Open Sans';
+	font-weight:600;
+    line-height: 35px;
+	margin: 0 0 10px;
+}
+.qua_callout_area p{
+	font-size:16px;
+	line-height: 22px;
+	margin: 0px;
+}
+
+.qua_callout_btn {
+	float: right;	
+}
+.qua_callout_area a {
+    display: inline-block;
+	font-family: 'Raleway';
+	font-weight:600;
+	font-size: 18px;
+	line-height: 20px;
+	margin: 22px 0;
+	padding: 10px 12px;
+	text-align: right;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+}
+.qua_callout_area a{
+	background-color: transparent;
+	transition: all 0.4s ease 0s;
+	text-decoration:none;
+}
+.qua_callout_area a i{
+	margin-left:5px;
+}
+
+/***** Footer widget Area *****************************************************************
+***************************************************************************************/
+
+.qua_footer_widget_area{
+	padding: 38px 0 20px;
+}
+
+.qua_footer_widget_area p {
+	font-size: 14px;
+	line-height: 22px;
+	font-family: 'Open Sans';
+	font-weight:400;
+	color: #f5f5f5;
+}
+.qua_footer_widget_area{
+	background: #1e1f24;
+}
+.qua-footer-separator{
+	background-color: #f8504b;
+	height: 3px;
+	margin-top:10px;
+	text-align:center;
+	width: 40px;
+}
+.qua_footer_widget_title{
+	font-family: 'Open Sans';
+	font-weight:400;
+	font-size: 24px;
+	margin: 0px 0px 25px 0px;
+	line-height: 25px;
+	color: #ffffff;
+	text-shadow: 0px 1px 2px #2a2a2a;
+}
+
+.qua_footer_widget_column{
+	margin-bottom: 50px;
+}
+
+
+.qua_footer_widget_column address{
+	font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.qua_footer_widget_column address{
+	color: #9e9d9d;
+}
+.qua_footer_widget_column address p{
+	color: #f5f5f5;
+	padding:0 0 10px;
+	font-size:14px;
+}
+.qua_footer_widget_column address p i{
+	margin-right:10px;
+}
+.qua_footer_widget_column address a{
+	color: #F5F5F5;
+	
+}
+.qua_footer_widget_column address a:hover{
+	color: #ffffff;
+}
+
+.qua_footer_widget_post {
+    margin: 0 0 16px !important;
+    padding-bottom: 16px;
+	border-bottom: 1px solid #6B6B6B;
+	vertical-align:middle;
+}
+.qua_footer_widget_post:last-child {
+	border-bottom: 0px;
+}
+.qua_footer_widget_post:last-child{
+	margin: 0 0 0px !important;
+}
+
+.qua_footer_widget_post h3 {
+    font-family: 'Open Sans';
+	font-weight:600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 2px;
+    margin-top: -2px;
+	
+}
+.qua_footer_widget_post h3 a {
+    transition: all 0.2s ease 0s;
+}
+
+.qua_footer_widget_post h3 a {
+	color:#f8504b;
+}
+.qua_footer_widget_post h3 a:hover {
+	color: #ffffff;
+}
+
+.hc_footer_widget_move{
+	float: left;
+}
+.hc_footer_widget_post_img {
+    margin-right: 18px !important;
+	height: 40px;
+	width: 40px;
+    transition: opacity 0.3s ease-out 0s;
+	display: block;
+}
+
+.qua_footer_widget_date {
+	font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 12px;
+    line-height: 20px;
+	color: #f5f5f5;
+}
+
+
+.qua_footer_widget_link {
+    margin: 20px 0 10px;
+    overflow: hidden;
+    padding: 4px 0;
+}
+.qua_footer_widget_link a,.qua_footer_widget_column ul li a {
+    display: block;
+   font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 0px 0 0px;
+    transition: all 0.4s ease 0s;
+}
+
+.qua_footer_widget_link a {
+	color: #f5f5f5;
+	text-decoration:none;
+}
+.qua_footer_widget_link a:hover {
+	color:#f8504b;
+}
+
+
+.footer-contact-social{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+.footer-contact-social li {
+    background-color: transparent;
+	border: 0px solid #ffffff;
+    border-radius: 100% 100% 100% 100%;
+    display: inline-block;
+	margin-right: 8px;
+	text-align: center;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+    padding: 1px;
+	cursor: pointer;
+}
+.footer-contact-social li > a > i {
+	font-size: 22px;
+    color: #ffffff;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+	line-height: 2;
+}
+.footer-contact-social  li > a > i:hover{
+	transform: scale(1.5, 1.5);
+	-webkit-transform: scale(1.5, 1.5);
+	-ms-transform: scale(1.5, 1.5);
+}
+
+
+/* Footer area Section Css------------------------------------------------------------ */
+
+.qua_footer_area{
+    padding: 20px 0px;
+}
+.qua_footer_area p {
+    font-family: 'Open Sans';
+	font-weight:400;
+	line-height: 20px;
+    font-size: 13px;
+	margin: 0px;
+	text-align:center;
+}
+
+.qua_footer_area p {
+	font-size:15px;
+}
+
+/***** Blog page *****************************************************************
+***************************************************************************************/
+
+
+.qua_blog_wrapper {
+    margin-bottom: 90px;
+}
+.qua_blog_section {
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 0px;
+	float: none;
+}
+.qua_blog_section:last-child {
+    margin-bottom: 0px;
+	background: none;
+	padding: 0px;
+}
+.qua_post_date {
+    border-radius: 0px;
+	display: block;
+	font-family: 'Open Sans';
+	font-weight:600;
+	float: left;
+	height: 70px;
+	margin-right: 2%;
+	margin-left: 0%;
+	width: 70px;
+	padding: 15px;
+}
+.qua_post_date span.date {
+    display: block;
+    font-size: 27px;
+	line-height: 22px;
+	padding: 0px 0;
+}
+.qua_post_date span {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.qua_post_date h6 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0px;
+    text-align: center;
+	text-transform: uppercase;
+}
+
+.qua_post_title_wrapper {
+    float: left;
+    width: 87%;
+}
+.qua_post_title_wrapper h2 {
+    float: left;
+    font-family: 'Open Sans';
+	font-weight:600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+	word-wrap: break-word;
+}
+.qua_post_title_wrapper h2 a {
+	transition: all 0.3s ease 0s;
+	text-decoration:none;
+}
+.qua_post_detail {
+	font-family: 'Open Sans';
+	font-weight:600;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 100%;
+	text-transform: uppercase;
+}
+.qua_post_detail a {
+    font-size: 13px;
+    padding: 5px 20px 5px 0;
+	transition: all 0.3s ease 0s;
+	display: inline-block;
+}
+.qua_post_detail a > i {
+	margin-right: 5px;
+	font-size: 16px;
+}
+.qua_tags {
+    display: inline-block;
+    margin: 0 5px 5px;
+}
+.qua_tags i {
+	margin-right: 9px;
+	font-size: 16px;
+}
+.qua_tags a {
+    font-size: 13px;
+    padding: 5px 5px 5px 0;
+    transition: all 0.3s ease 0s;
+}
+
+.qua_blog_post_img {
+    float: left;
+    margin-top: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.qua_blog_post_content {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+	padding-top:20px;
+}
+.qua_blog_post_content p {
+	font-family: 'Open Sans';
+	font-weight:400;
+	font-size: 15px;
+	line-height: 27px;
+    margin: 0 0 10px;
+	word-wrap: break-word;
+}
+.blog-btn-col {
+  display: block;
+  margin: 0 0 20px;
+}
+a.qua_blog_btn {
+	border-radius: 3px;
+    display: inline-block;
+   font-family: 'Raleway';
+	font-weight:600;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0;
+    padding: 7px 15px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+a.qua_blog_btn{
+	background-color: transparent;
+	transition: all 0.4s ease 0s;
+}
+a.qua_blog_btn:hover,
+a.qua_blog_btn:focus {
+	text-decoration: none;
+	transition: all 0.4s ease 0s;
+}
+a.qua_blog_btn i {
+	padding-left: 10px;
+}
+
+.qua_blog_pagination {
+    margin-bottom: 0px;
+    overflow: auto;
+    padding: 0 0 0px;
+	float: none;
+}
+.qua_blog_pagi {
+    margin: 0px 0 0px;
+    overflow: hidden;
+    padding: 4px 0;
+}
+.qua_blog_pagi a {
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0 0px 10px 0;
+    padding: 9px 16px;
+    transition: all 0.3s ease 0s;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.qua_post_date{
+	margin-bottom: 20px;
+}
+
+
+/***** Blog page with sidebar *****************************************************************
+***************************************************************************************/
+
+.qua_sidebar_widget ,.widget {
+	margin-bottom: 30px;
+	margin-top: 0;
+	overflow: hidden;
+	padding: 20px 20px 15px 20px;
+}
+.qua_sidebar_widget h3 {
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-weight:600;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	word-wrap: break-word;
+}
+.qua_sidebar_widget_title{
+	margin-bottom:10px;
+}
+.qua_sidebar_widget_title h2 , .widgettitle{
+	font-size:20px;
+	margin: 0 0 10px;
+	word-wrap: break-word;
+	font-family: 'Open Sans';
+	font-weight:600;
+}
+.widgettitle{
+border-bottom:5px solid #F8504B;
+width:35%;
+padding-bottom:2%;
+}
+/*** tag widget **/
+.qua_widget_tags , .tagcloud{
+	margin: 0px 0 10px;
+	overflow: hidden;
+	padding: 0;
+}
+.qua_widget_tags a  , .tagcloud a{
+	border: 0 none;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-weight:600;
+	font-size: 14px !important;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0 5px 10px 0;
+	padding: 8px 12px;
+	transition: all 0.3s ease 0s;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+.qua_media_sidebar {
+margin: 0px 0px 20px !important;
+padding-bottom: 20px;
+}
+.qua_media_sidebar span{
+	margin-right:8px;
+	font-size:12px;
+	text-transform: uppercase;
+}
+.qua_media_sidebar span i{
+	margin-right:3px;
+	font-size:14px;
+}
+.qua_media_sidebar span a{
+	font-size:12px;
+	text-transform: uppercase;
+}
+
+.qua_media_sidebar:last-child {
+border-bottom: none;
+margin: 0px !important;
+}
+.qua_sidebar_link p , .widget ul li, .qua_sidebar_widget ul li{
+	display: block;
+	font-family: 'Roboto';
+	font-weight:400;
+	font-size: 15px;
+	transition: all 0.4s ease 0s;
+	padding-bottom: 10px;
+    padding-top: 10px;
+	word-wrap: break-word;
+}
+.qua_sidebar_link p:last-child ,.widget ul li:last-child, .qua_sidebar_widget ul li:last-child{
+	border-bottom:none;
+}
+.qua_sidebar_link p span{
+	float:right;
+	width:25px;
+	height:25px;
+	text-align:center;
+	vertical-align:middle;
+	padding: 4px 0 5px;
+	transition: all 0.4s ease 0s;
+}
+.qua_sidebar_link p a{
+	transition: all 0.4s ease 0s;
+	font-size:16px;
+	line-height: 20px;
+}
+.qua_sidebar_link p a i{
+	margin-right:5px;
+}
+.qua_sidebar_flicker{
+	margin-bottom:15px;
+	overflow: hidden;
+	text-align:center;
+	padding-top:0px;
+}
+.qua_sidebar_flicker span {
+	width:18%;
+	margin-bottom:5px;
+	float: left;
+	margin-right:5px;
+	transition: all 200ms ease-out; /*safari and chrome */
+	-webkit-transition: all 200ms ease-out; /*safari and chrome */
+}
+.qua_sidebar_flicker span a img{
+	width:100%;
+}
+.qua_sidebar_flicker span:hover{
+	transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	-ms-transform: scale(1.2, 1.2);
+}
+.qua_sidebar_tweeter_link{
+	margin-bottom:15px;
+	width:100%;
+	padding:0;
+	overflow:hidden;
+}
+
+.qua_sidebar_tweeter_link:last-child{
+	border-bottom:0px;
+}
+.qua_sidebar_tweeter_link h3 i{
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	margin-right:10px;
+	padding:0;
+	text-align:center;
+}
+.qua_sidebar_tweeter_link h3 i{
+	font-size:20px;
+	line-height:30px;
+
+}
+.qua_sidebar_tweeter_link h3 a{
+	font-size:16px;
+	font-weight:bold;
+}
+.tweet_info{
+	font-size:15px;	
+	line-height: 22px;
+}
+.tweet_info a{
+	font-weight:bold;
+}
+.tweet_date{
+	margin: 0 0 10px;
+}
+
+
+/***** Blog Detail page *****************************************************************
+***************************************************************************************/
+
+.qua_blog_detail_section{
+	margin-bottom: 20px;
+	overflow: auto;
+	padding: 0 0 15px;
+	float: none;
+}
+.qua_comment_section {
+    overflow: auto;
+    padding: 0 0 15px;
+	margin: 0px 0px 0px 0px;
+	float: none;
+}
+.qua_comment_title {
+    display: block;
+    margin: 0 0 5px;
+}
+.qua_comment_title h3 {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 30px;
+    line-height: 25px;
+    margin: 0 0 -2px;
+    padding-bottom: 11px;
+    padding-right: 10px;
+}
+.qua_comment_title h3 > i {
+	font-size: 34px;
+}
+
+.qua_comment_box {
+    margin: 0 0 10px !important;
+    padding: 40px 0px 0 0;
+    position: relative;
+}
+.pull_left_comment{
+	margin-right: 15px;
+	float: left;
+}
+.comment_img {
+    height: 60px;
+    width: 60px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 50%;
+	margin: 0 0 20px;
+}
+.qua_comment_detail {
+    margin-left: 0px;
+	padding: 20px;
+}
+.qua_comment_detail_title {
+    font-family: 'Open Sans';
+	font-weight:700;
+    font-size: 18px;
+	line-height: 20px;
+    margin: 0px 0 5px;
+}
+
+.qua_comment_detail p{
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 15px;
+	line-height: 25px;
+	margin: 0 0 20px;
+}
+.qua_comment_date{
+   padding-bottom:5px;
+   margin-bottom: 10px;
+   line-height: 20px;
+   font-size: 14px;
+   display:block;
+   font-family: 'Open Sans';
+	font-weight:600;
+}
+.reply {
+    font-family: 'Roboto';
+	font-weight:700;
+    font-size: 16px;
+	text-align: right;
+}
+.reply a {
+	font-size: 16px;
+	line-height: 22px;
+}
+.reply a > i {
+	font-size: 16px;
+	position: relative;
+	padding-right: 5px;
+	top: 2px;
+}
+.blog_single_post_content p {
+    font-family: 'Roboto';
+	font-weight:400;
+    font-size: 15px;
+    line-height: 22px;
+}
+.qua_form_group {
+margin-bottom: 20px;
+}
+.qua_comment_form_section {
+    margin-bottom: 60px;
+    overflow: auto;
+    padding: 0 0 15px;
+	margin: 20px 0 45px;
+	float: none;
+}
+.qua_comment_form_section h2 {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 0 0 30px;
+	padding: 0 0 15px;
+}
+.qua_comment_form_section h2 > i {
+    font-size: 32px;
+	position: relative;
+	top: 5px;
+}
+.qua_comment_form_section label {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 11px;
+}
+
+.qua_con_input_control {
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    height: 45px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+.qua_con_textarea_control {
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    height: auto;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+.qua_con_input_control:focus, .qua_con_textarea_control:focus {
+  outline: 0;
+}
+
+.qua_con_input_control {
+    background-image: none;
+}
+.qua_con_textarea_control {
+    background-image: none;
+}
+.qua_send_button , #qua_send_button{
+	font-family: 'Open Sans';
+	font-weight:600;
+	display: inline-block;
+	padding: 15px 40px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	transition: all 0.4s ease;
+	border-radius: 6px;
+}
+
+/***** Typography page *****************************************************************
+***************************************************************************************/
+
+.qua_heading_section, .qua_blockquote_section, .qua_list_section, .hc_icon_para_section {
+    float: none;
+    margin-bottom: 60px;
+    overflow: auto;
+    padding: 0;
+}
+.qua_head_title {
+    margin-bottom: 10px;
+}
+.qua_head_title h2 {
+	font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 24px;
+    margin: 0 0 25px;
+}
+.qua_heading_section h1 {
+    font-size: 46px;
+    line-height: 54px;
+}
+.qua_heading_section h2 {
+    font-size: 40px;
+    line-height: 48px;
+}
+.qua_heading_section h3 {
+    font-size: 34px;
+    line-height: 42px;
+}
+.qua_heading_section h4 {
+    font-size: 28px;
+    line-height: 36px;
+}
+.qua_heading_section h5 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.qua_heading_section h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.qua_heading_section h1, .qua_heading_section h2, .qua_heading_section h3, .qua_heading_section h4, .qua_heading_section h5, .qua_heading_section h6 {
+    font-family: 'Open Sans';
+	font-weight:400;
+    margin: 0 0 20px;
+}
+.qua_heading_section p {
+	font-family: 'Open Sans';
+	font-weight:400;
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 25px;
+}
+.qua_heading_section p:last-child {
+	margin-bottom: 0px;
+}
+/*Blockquote*/
+.qua_blockquote_section blockquote {
+    margin: 0 0 28px;
+    padding: 15px 20px;
+    width: auto;
+}
+.qua_blockquote_section blockquote > span {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+.qua_blockquote_section blockquote > small {
+    display: block;
+    font-family: 'Open Sans';
+	font-weight:700;
+	font-style:italic;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.blockquote_sytle2 {
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 15px 20px 15px 0 !important;
+    width: auto;
+}
+.blockquote_sytle2 span {
+    display: block;
+    padding: 15px 15px 5px 35px;
+}
+.blockquote_sytle2 span {
+    background: url("../images/blockquote_img.png") no-repeat scroll 0 10px rgba(0, 0, 0, 0);
+}
+.blockquote_sytle2 small {
+    padding: 0 15px 5px 35px;
+}
+
+/*Icon Paragraph*/
+.qua_para_icons {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 20px;
+}
+.qua_para_icons i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+/*Table Styles*/
+.table {
+    font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+
+/*Scroll Up BTN*/
+.qua_scrollup {
+    background: none repeat scroll 0 0 #3B3B3B;
+    border-radius: 5px;
+    bottom: 100px;
+    color: #FAFAFA;
+    display: none;
+    font-size: 28px;
+    height: 40px;
+    opacity: 0.5;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 9999;
+}
+.qua_scrollup i {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+/***** require theme check plugin cs*******/
+.wp-caption ,.wp-caption-text{ }
+.wp-caption {
+	max-width: 100%;
+	padding: 4px;
+}
+.sticky { }
+.gallery-caption { }
+.alignright{
+	display: inline;
+	float: right;
+	margin-left: 1.625em;
+}
+.bypostauthor{}
+.aligncenter{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.alignleft{
+	float: left;
+	display: inline;
+	margin-right: 1.625em;
+}
+/* CSS ADDED AFTER THEME UNIT TEST DATA DESIGN ISSUE*/
+.qua_blog_post_content .alignnone, .wp-caption img{
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+.qua_blog_post_content .alignnone,
+.qua_blog_post_content .alignright,
+.qua_blog_post_content .alignleft{
+	padding-top:20px;
+}
+.qua_blog_post_content ul  li{list-style:disc outside none;list-style-position: inside;}
+.qua_blog_post_content  ol  li{list-style:decimal outside none;list-style-position: inside;}
+.qua_blog_post_content  ol  li , .qua_blog_post_content ul  li	{
+	font-family: 'Open Sans';
+	font-weight:400;
+	font-size: 15px;	
+	word-wrap: break-word;
+	margin-bottom: 10px;
+}
+	
+/*Table CSS*/
+table {	
+	border-collapse: separate;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 100%;
+	font-family: 'Open Sans';
+	font-weight:400;
+	}
+	
+table td {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+color:#6a6a6a;
+}
+table th {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+dt {font-weight: bold;font-size: 17.5px;margin-top:15px;font-family: 'Open Sans';font-weight:400;}
+dd {margin-left: 10px;font-size: 17.5px;font-family: 'Open Sans';font-weight:400;}
+/******* image and video responsive ***********/
+img.aligncenter,
+img.alignleft,
+img.alignnone,
+img.alignright,
+img.attachment-medium,
+img.attachment-large,
+img.attachment-thumbnail,
+img.size-full,
+img.size-medium,
+img.size-thumbnail{
+  width: inherit;  /* Make images fill their parent's space*/
+  max-width: 100%; /* Add !important if needed. */
+  height: auto; /* WP added height and width attributes scales */
+}
+img.size-full,
+img.size-large,
+img.header-image,
+img.wp-post-image {
+	max-width: 100%;
+	height: auto; /* WP added height and width attributes scales */
+}
+
+/* Make sure videos and embeds fit their containers */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+/* Keep wide captions from overflowing their container. */
+.wp-caption { 
+max-width: 100%; 
+}
+
+.qua_blog_post_content  ul  li,.qua_blog_post_content ul  li{list-style:disc outside none;list-style-position: outside;color:#6a6a6a;}
+.qua_blog_post_content  ol  li,.qua_blog_post_content ol  li{list-style:decimal outside none;list-style-position: inside; margin-top: 5px; color:#6a6a6a;}
+.qua_blog_post_content cite,.qua_blog_post_content cite{font-style: italic;}
+.qua_blog_post_content h1,.qua_blog_post_content h2,.qua_blog_post_content h3,.qua_blog_post_content h4,.qua_blog_post_content h5,.qua_blog_post_content h6{font-family: 'Open Sans';font-weight:400;}
+.widget ul , .qua_sidebar_widget ul {list-style:none; padding-left:0;}
+.widget ul li:before , .qua_sidebar_widget ul li:before {
+font-family: 'FontAwesome';
+content: '\f105';
+margin-right:5px;
+}
+.qua_sidebar_widget .textwidget {
+font-family: 'Open Sans';
+font-weight:400;
+font-size: 15px;
+line-height: 22px;
+margin-bottom: 5px;
+margin-top: 0px;
+word-wrap: break-word;
+color: #6a6a6a;
+}
+.qua_footer_widget_column .textwidget {
+font-family: 'Open Sans';
+font-weight:400;
+font-size: 15px;
+line-height: 22px;
+margin-bottom: 5px;
+margin-top: 0px;
+word-wrap: break-word;
+color:#F5F5F5;
+}
+/*
+.menu li, li .sub-menu {border-bottom: none !important;}
+*/
+.qua_footer_widget_column ul {padding-left:0; list-style:none; }
+.qua_footer_widget_column ul li a { color: #F5F5F5; }
+
+/*******************************************/
+.qua_footer_widget_column #wp-calendar,.qua_sidebar_widget #wp-calendar{
+width: 100%;
+}
+.qua_sidebar_widget #wp-calendar caption {
+font-family: 'Open Sans';
+font-weight:700;
+font-size: 14px;
+color: #121212;
+padding: 2px 0;
+}
+.qua_footer_widget_column #wp-calendar caption{
+font-family: 'Open Sans';
+font-weight:700;
+font-size: 14px;
+color: #FFFFFF;
+padding: 2px 0;
+}
+.qua_sidebar #wp-calendar thead tr th {
+border: 1px solid #F5F5F5;
+padding: 0px;
+color: #777777;
+font-family: 'Open Sans';
+font-weight:700;
+font-size: 14px;
+text-align:center;
+}
+.qua_footer_widget_column #wp-calendar thead tr th  {
+border: 1px solid #F5F5F5;
+padding: 0px;
+color: #CCCCCC;
+font-family: 'Open Sans';
+font-weight:700;
+font-size: 14px;
+text-align:center;
+}
+.qua_sidebar #wp-calendar tbody tr td {
+padding: 0px 5px 0px 7px;
+color: #F5F5F5;
+font-family: 'Open Sans';
+font-weight:600;
+font-size: 13px;
+line-height: 20px;
+text-align:center;
+}
+.qua_footer_widget_column #wp-calendar tbody tr td{
+padding: 0px 5px 0px 7px;
+color: #F5F5F5;
+font-family: 'Open Sans';
+font-weight:600;
+font-size: 13px;
+line-height: 20px;
+text-align:center;
+}
+.qua_footer_widget_column #wp-calendar tbody tr td a,.qua_sidebar_widget #wp-calendar tbody tr td a{
+padding: 0px 5px 0px 7px;
+color: #F5F5F5;
+font-family: 'Open Sans';
+font-weight:600;
+font-size: 13px;
+line-height: 20px;
+}
+.qua_footer_widget_column li.recentcomments  { color: #F5F5F5;}
+.qua_sidebar_widget li.recentcomments  {color: #6a6a6a;}
+/*Search Widget Style*/
+.qua_sidebar_widget .searchform div > label ,.qua_searching .searchform div > label{
+    color: #3B3B3B;
+    display: block;
+    font-family: 'Open Sans';
+	font-weight:600;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.qua_sidebar_widget .searchform div > input {
+    background-color: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 6px 20px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+}
+.qua_sidebar_widget #searchsubmit , .qua_searching #searchsubmit{
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans';
+	font-weight:600;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 5px 12px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.qua_sidebar_widget #searchsubmit {
+    color: #FFFFFF;
+}
+.qua_sidebar_widget .searchform div > input  , .qua_searching .searchform div > input{
+    background-color: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 6px 20px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+}
+.qua_footer_widget_column .searchform div > label {
+    color: #CCCCCC;
+    display: block;
+    font-family: 'Open Sans';
+	font-weight:600;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.qua_footer_widget_column .searchform div > input {
+    background-color: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 5px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+}
+.qua_footer_widget_column #searchsubmit {
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans';
+	font-weight:600;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.qua_footer_widget_column .searchform div > input {
+    background-color: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 5px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+}
+.quality_search_heead{
+	font-family: 'Open Sans';
+	font-weight:300;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 35px;
+    word-wrap: break-word;
+}
+.search_res p{
+	font-family: 'Open Sans';
+	font-weight:300;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 27px;
+    margin: 0 0 15px;
+    word-wrap: break-word;
+}
+
+/*Head Title*/
+.qua_title_head {
+min-height: 80px; padding-top: 15px;
+}
+.qua_searching p {
+	font-family: 'Open Sans';
+	font-weight:400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 8px 0 33px;
+    word-wrap: break-word;
+}
+.qua_post_cats{display:inline-block;}
+.qua_post_cats i{color:#ccc;}
+.banner{margin-bottom:15px;}
+
+.qua_blog_post_content abbr,
+.qua_blog_post_content acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+.qua-logo a:hover{color: #FA504B;}
+.spacer{margin: 0 0 25px;}
+.qua_col_padding {
+padding-left: 1px;
+padding-right: 1px;
+margin: 0 0 40px;
+}
+.qua_port_title {
+background-position: center top;
+background-repeat: no-repeat;
+margin: 0 auto 52px;
+padding: 0 15px 0px;
+position: relative;
+width: 97.4%;
+}
+.qua_port_title h1 {
+font-family: 'Open Sans';
+font-weight:400;
+font-size: 30px;
+font-weight: normal;
+line-height: 40px;
+margin: 0 0 10px;
+text-align: center;
+}
+.qua_port_title p {
+font-family: 'Open Sans';
+font-weight:400;
+font-size: 20px;
+line-height: 25px;
+margin: 0px 0 33px;
+text-align: center;
+}
+.qua_portfolio_image {
+text-align: center;
+position: relative;
+line-height: 0px;
+font-size: 0px;
+transition: all 200ms ease-out;
+-webkit-transition: all 200ms ease-out;
+width: 100%;
+position: relative;
+height: 100%;
+overflow: hidden;
+}
+.qua_home_portfolio_showcase_overlay {
+visibility: hidden;
+opacity: 0;
+transition: all 0.4s ease;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.qua_home_portfolio_showcase_overlay_inner {
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+margin-top: -40px;
+}
+.qua_portfolio_image .qua_home_portfolio_showcase_icons {
+margin-top: 0px;
+text-align: center;
+width: 100%;
+}
+.qua_portfolio_image .qua_home_portfolio_showcase_icons a {
+font-size: 1.3em;
+display: inline-block;
+margin-left: 2px;
+padding: 8px 8px;
+opacity: 1;
+text-decoration: none;
+}
+.qua_home_portfolio_caption {
+border-radius: 0;
+padding: 10px 15px 10px 15px;
+text-align: center;
+transition: all 180ms ease-in-out 0s;
+font-family: 'Open Sans';
+font-weight:400;
+cursor: pointer;
+word-wrap: break-word;
+}
+.qua_portfolio_carusel, .qua_testimonial_carusel {
+padding-left: 20px;
+padding-right: 20px;
+padding: 55px 0;
+margin: 0 0 72px;
+}
+.qua_home_portfolio_caption a {
+float: left;
+font-weight: 600;
+}
+.qua_portfolio_image img{
+transition: all 300ms ease-in-out 0s;
+-webkit-transition: all 300ms ease-out;
+}
+.qua_portfolio_image:hover  img{
+transform: scale(2, 2);
+-webkit-transform: scale(2, 2);
+-ms-transform: scale(2, 2);
+}
+.qua_proejct_button {
+border-radius: 0;
+margin-top: 0px;
+padding: 0px;
+text-align: center;
+transition: all 0.4s ease 0s;
+text-align: center;
+}
+.qua_proejct_button a {
+background-color: transparent;
+transition: all 0.4s ease 0s;
+}
+.qua_proejct_button a {
+display: inline-block;
+font-family: 'Open Sans';
+font-weight:600;
+font-size: 18px;
+line-height: 20px;
+margin: 8px 0;
+padding: 14px 20px;
+text-align: right;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+vertical-align: middle;
+}
+.qua-blog-area {
+    border-radius: 0;
+    margin-bottom: 80px;
+    transition: all 0.4s ease 0s;
+}
+.qua-blog-area img {
+width: 100%;
+}
+.qua-blog-info {
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 18px;
+}
+.qua-blog-area .qua-blog-info h2 {
+font-family: 'Open Sans';
+font-weight:600;
+font-size: 22px;
+line-height: 30px;
+margin: 0px 0 10px;
+text-align: left;
+}
+.qua-blog-post-detail {
+font-family: 'Open Sans';
+font-weight:600;
+margin: 0 0 5px;
+padding: 0;
+font-size: 12px;
+text-transform: lovercase;
+width: 100%;
+}
+.qua-blog-post-detail span {
+display: inline-block;
+padding: 3px 0;
+}
+.post-seperator {
+margin: 0 15px 0px 15px;
+}
+.qua-tags {
+display: inline-block;
+margin: 0 0px 5px;
+}
+.qua-blog-post-description {
+font-family: 'Open Sans';
+font-weight:400;
+font-size: 15px;
+line-height: 25px;
+margin: 0 0 20px;
+padding: 0px;
+text-align: left;
+}
+.qua-blog-date-cm {
+padding-top: 10px;
+padding-bottom: 10px;
+overflow: hidden;
+}
+.qua-blog-area .qua-blog-info .qua-blog-date-cm .left {
+/* text-align: left; */
+float: left;
+font-size: 13px;
+font-family: 'Open Sans';
+font-weight:600;
+line-height: 20px;
+padding-right: 10px;
+}
+.qua-blog-area .qua-blog-info .qua-blog-date-cm .right {
+float: right;
+line-height: 20px;
+}
+.qua-blog-area .qua-blog-info .qua-blog-date-cm .right a {
+font-size: 13px;
+font-family: 'Open Sans';
+font-weight:600;
+transition: all 0.3s ease 0s;
+margin: 0;
+}
+
+/* Aside Box Style for after testing Qulity Lite 1.0.6.1 */
+#post-559 {	
+	padding: 24px 24px 0;
+	padding: 1.714285714rem;
+	background: #f9f9f9;
+	border-left: 22px solid #dddcdc;
+}
+.qua_sidebar_widget .textwidget img
+{
+max-width: 100%;
+height: auto;
+}
+.qua_sidebar_widget .textwidget select
+{ max-width: 100%; }
+
+
+/*---------------------Theme Unit Data Testing by shahid-----July 9, 2015--------------------*/
+.qua_blog_section dl > dd {
+    margin-left: 10px;
+	margin-bottom: 5px;
+	line-height: 27px;
+}
+.qua_blog_section dl {
+	font-family: 'Open Sans';
+	font-weight:400;
+	font-size: 15px;
+	color: #6a6a6a;
+	line-height: 27px;
+	word-wrap: break-word;
+}
+.qua_blog_section dt, .qua_blog_section dd { font-size: 15px; }
+.qua_blog_section address {
+	font-family: 'Open Sans';
+	font-weight:400;
+	font-size: 15px;
+	color: #6a6a6a; 
+}
+
+.qua_blog_section ins {
+  background-color: rgba(254,255,0,0.68);
+  text-decoration: none;
+}
+
+p.wp-caption-text {
+	margin-bottom: 0;
+	font-size: 13px;
+	text-align: center;
+	padding: 5px 0;
+}
+.Tweet-text { color: #ff0000; }
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}

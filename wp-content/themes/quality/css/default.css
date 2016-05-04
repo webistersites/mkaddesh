@@ -1,0 +1,644 @@
+/*!
+ * Quality Default Css created By Shahid - Scientech IT
+*/
+
+#wrapper{
+	background: #ffffff;
+} 
+.page-seperator {
+	background-color: #e7e7e7;
+	box-shadow: 7px 1px 3px #DEDEDE;
+}
+.qua-separator-small, .qua-head-detail,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus, .dropdown-menu, .qua-separator, .qua_col_padding:hover .qua_home_portfolio_caption, .qua_proejct_button a:hover, .qua_callout_area, .qua_short_tabs li.active > a,
+.qua_short_tabs li > a:hover, .qua-footer-separator,.qua_contact_btn,.qua_send_button , #qua_send_button, .qua_post_date,a.qua_blog_btn:hover, .more-link:hover  , .more-link:focus ,
+a.qua_blog_btn:focus, .qua_dropcape_square span,.qua_dropcape_circle span, .qua_sidebar_widget #searchsubmit, .qua_dropcape_square span, .qua_sidebar_link p:hover span,.qua_sidebar_tweeter_link h3 i  { background-color: #f8504b; }
+
+.dropdown .fa-angle-down, li.dropdown:hover .fa-angle-down, li.dropdown.active .fa-angle-down, .qua_heading_title h1 span, .qua_page_heading h1 span, .qua-separator, .qua-service-area p > a , .qua_port_title h1 span, .qua_portfolio_tabs li.active > a, .qua_portfolio_tabs li > a:hover, .qua-blog-post-detail,.qua-blog-post-detail span, .qua-blog-post-detail a, .qua-blog-post-detail a , .qua-tags a:hover, .blog-post-btn, .qua-blog-area .qua-blog-info  .qua-blog-date-cm  .right a:hover, .qua_testimonianl_sec  i, .qua_testimonianl_desig, .qua_footer_widget_post h3 a, .qua_footer_widget_link a:hover, .qua_tooltip a, a.qua_blog_btn , .more-link, .reply a , .qua_title_head, .qua_footer_widget_column ul li a:hover, .qua_sidebar_link p:hover a , .widget ul li a:hover , .qua_sidebar_widget ul li a:hover, .tweet_info a, .qua_media_sidebar h3 a{ color: #F8504B; }
+
+.head-contact-info li, .head-contact-social li > a > i ,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus, .dropdown-menu > li > a ,.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus, .dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus, .slide_icon, .qua_port_title h1, .qua_proejct_button a,.qua_proejct_button a:hover, .qua_dropcape_square, .qua_dropcape_simple,
+.qua_dropcape_circle, .qua_dropcape_circle span , .qua_tooltip, .qua_dropcape_square span, .qua_btn_orange, .qua_btn_black,.qua_btn_red, .qua_btn_green, .qua_btn_purple, .qua_btn_pink , .qua_btn_blue, .qua_testimonianl_content, .blog-post-btn:hover , .qua_callout_area h2, .qua_callout_area p, .qua_callout_area a, .qua_short_tabs li.active > a,
+.qua_short_tabs li > a:hover, .qua_sidebar_tweeter_link h3 i, .qua_post_date,.qua-project-detail-sidebar .launch-qua-project a:hover,.footer-contact-social li > a > i , .qua_footer_widget_post h3 a:hover, .qua_footer_widget_column address a:hover, .qua_footer_widget_title,a.qua_blog_btn:hover, .more-link:hover  , .more-link:focus ,
+a.qua_blog_btn:focus, .qua_widget_tags a:hover  , .tagcloud a:hover, .qua_sidebar_tweeter_link h3 a, .qua_send_button , #qua_send_button 
+{ color: #ffffff; }
+
+.navbar-default, .dropdown .fa-angle-down, li.dropdown:hover .fa-angle-down, li.dropdown.active .fa-angle-down, .qua_home_portfolio_caption, .qua_portfolio_image .qua_home_portfolio_showcase_icons a i , .qua_portfolio_tabs li.active > a, .qua_portfolio_tabs li > a:hover,.qua_portfolio_tabs li a, .qua_short_tabs li a, .qua_dropcap_section,.qua_tooltip_section, .qua_alert_section, .qua_button_section, .qua_btn_white, .blog-post-btn, .qua_blog_pagination, .qua-project-detail-sidebar .launch-qua-project a, .qua_callout_area a:hover, .qua_blog_pagi a, .qua_blog_pagi a:hover, .qua_blog_pagi a.active, .qua_widget_tags a  , .tagcloud a  { background-color: #ffffff; }
+
+.head-contact-social li, .qua_callout_area a:hover{ border: 2px solid #ffffff; }
+.head-contact-social li.facebook:hover {
+    background-color: #4c66a4;
+}
+.head-contact-social li.linkedin:hover {
+    background-color: #017eb4;
+}
+.head-contact-social li.twitter:hover {
+    background-color: #15b4c9;
+}
+.head-contact-social li.youtube:hover {
+    background-color: #C1181D;
+}
+.head-contact-social li.googleplus:hover {
+    background-color: #DD4B39;
+}
+
+/* Header Logo & Menus---------------------------------------------------------------------------------------*/
+
+ .navbar-default .navbar-nav > li > a {
+	color: #121212;
+}
+ .dropdown-menu > li > a {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.dropdown .fa-angle-down{	
+	border: 1px solid #121212;
+	}
+li.dropdown:hover .fa-angle-down, li.dropdown.active .fa-angle-down{	
+	border: 1px solid #ffffff;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+/* Flex Slider Css --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.carousel{
+	margin-bottom: 60px;
+	background-color: #121212;
+}
+
+.slide_icon {
+    border: 3px solid rgba(0, 0, 0, 0.4);
+}
+.icon_red {
+	background-color: #f05253;
+}
+.icon_orange {
+	background-color: #f09c0a;
+}
+.icon_green {
+	background-color: #7db504;
+}
+
+/* Homepage Service Section css -----------*/
+.qua_heading_title h1 {
+    color: #121212;
+}
+ .qua_heading_title p {
+    color: #6A6A6A;
+}
+
+/* Homepage Service Section css --------------*/
+
+.qua_page_heading h1 {
+    color: #121212;
+}
+.qua_page_heading p {
+    color: #6A6A6A;
+}
+
+.hexagon-box{
+	background: url(../images/hexagon.png) no-repeat center; 
+}
+.qua-service-area:hover > .hexagon-box {
+	background: url(../images/hexagon_hover.png) no-repeat center; 
+}
+.qua-service-area i {
+    color: #121212;
+}
+.qua-service-area h2 > a {
+	color: #121212;
+}
+.qua-service-area p {
+	color: #6a6a6a;
+}
+.qua-service-area p > a:hover {
+	color: #121212;
+}
+.qua_port_title p {
+    color: #dedede;
+}
+
+.qua_portfolio_carusel, .qua_testimonial_carusel {
+	background:  url(../images/c.png); 
+}
+.qua_home_portfolio_caption {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	color:#515151;
+	height:45px;
+}
+
+.qua_home_portfolio_caption a{
+	color:#515151;
+}
+
+.qua_col_padding:hover .qua_home_portfolio_caption{
+	color:#fff;
+	border-bottom: 1px solid #f8504b;
+    border-left: 1px solid #f8504b;
+    border-right: 1px solid #f8504b;
+}
+.qua_col_padding:hover .qua_home_portfolio_caption a{
+	color:#fff;
+}
+.qua_home_portfolio_showcase_fade {
+    opacity: 0.2;
+}
+
+.qua_home_portfolio_showcase_overlay {
+	background: #000000;
+}
+.qua_portfolio_image .qua_home_portfolio_showcase_icons a i{
+	color:#000000;
+}
+.qua_proejct_button a {
+	text-shadow: 0px 1px 1px #777777;
+	border: 2px solid #ffffff;
+}
+.qua_proejct_button a:hover {
+	text-shadow: 0px 1px 1px #f8504b;
+	border: 2px solid #f8504b;	
+}
+
+/**** portfolio categories tab csss *********/
+
+.qua_portfolio_tabs li a {
+    color: #3b3b3b;
+	border:1px solid #d1d1d1;
+}
+.qua_portfolio_tabs li.active > a {
+    border: 1px solid #f8504b;
+}
+
+/***** Client Section  ************/
+
+.media-column {
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+/******* Blog Section **********/
+.qua-blog-area{
+	border:4px solid #f1f1f1;
+	
+}
+.qua-blog-area img{
+	border-bottom:4px solid #f8504b;
+}
+
+.qua-blog-area .qua-blog-info h2{
+	color:#2a2a2a;
+}
+.qua-blog-area .qua-blog-info h2 > a{
+	color:#2a2a2a;
+}
+
+/*Css by Shahid*/
+.qua-blog-post-description {
+	color: #6a6a6a;
+}
+
+.post-seperator{
+	border-right: 1px solid #2a2a2a;
+}
+.blog-post-btn{
+    border: 1px solid #f8504b;
+}
+.blog-post-btn:hover{
+	background-color: #f8504b;
+	border: 1px solid #f8504b;
+}
+
+.qua-blog-area .qua-blog-info .qua-blog-date-cm  span.date{
+	color#000;
+}
+.qua-blog-area .qua-blog-info .qua-blog-date-cm   p{
+	color:#000;
+}
+.qua-blog-area:hover{
+	border:4px solid #f8504b;
+}
+
+.qua-blog-date-cm{
+	border-top:1px solid #f1f1f1;
+}
+.qua-blog-area .qua-blog-info  .qua-blog-date-cm  .left{
+	color: #2A2A2A;
+}
+.qua-blog-area .qua-blog-info  .qua-blog-date-cm  .right a{
+	color:#2A2A2A;
+}
+
+/******* Testimonial Section ************/
+.qua_testimonianl_sec {
+	border:6px solid #f8504b;
+	background-color:#fff;
+	
+}
+.pager a{
+	background: #bbbbbb;
+	border: 2px solid #bbbbbb;
+}
+.pager a.selected{
+	background: #fff;
+	border: 2px solid #f8504b;
+}
+
+/***** Call Out Section ***********/
+.qua_callout_area{
+	border-top:3px solid #e53a35;
+	border-bottom:3px solid #e53a35;
+}
+.qua_callout_area a{
+	background-color: transparent;
+	border: 2px solid #ffffff;
+}
+
+/***** Footer widget Area **********/
+
+.qua_footer_widget_area p {
+	color: #f5f5f5;
+}
+.qua_footer_widget_area{
+	background: #1e1f24;
+}
+
+
+
+.qua_footer_widget_title{
+	text-shadow: 0px 1px 2px #2a2a2a;
+}
+
+.qua_footer_widget_column address{
+	color: #9e9d9d;
+}
+.qua_footer_widget_column address p{
+	color: #f5f5f5;
+}
+.qua_footer_widget_column address a{
+	color: #F5F5F5;
+	
+}
+
+.qua_footer_widget_post {
+	border-bottom: 1px solid #6B6B6B;
+}
+
+
+.qua_footer_widget_date {
+	color: #f5f5f5;
+}
+
+.qua_footer_widget_link a {
+	color: #f5f5f5;
+}
+
+.footer-contact-social li {
+	border: 0px solid #ffffff;
+}
+/* Footer area Section Css------------------------------------------------------------ */
+
+.qua_footer_area{
+	background: #1e1f24;
+	border-top: 1px solid #6B6B6B;
+}
+.qua_footer_area p {
+	color: #f2f2f2;
+	font-size:15px;
+}
+.qua_footer_area p span{
+	color: #fa504b;
+}
+.qua_footer_area p a {
+    color: #fa504b;
+}
+.qua_footer_area p a:hover {
+    color: #fa504b;
+}
+
+/********** project detail page css **********************************************
+***********************************************************************************/
+
+.qua-project-description h3 span{
+	color:#f9504b;
+}
+.qua-project-description p{
+	color:#6a6a6a;	
+}
+.qua-related-project{
+	background: none repeat scroll 0 0 #F9F9F9;
+    border-top: 2px solid #D1D1D1;
+}
+.qua_portfolio_detail_pagi{
+	border-bottom:1px solid #d1d1d1;
+}
+.qua_portfolio_detail_pagi li a {
+	color: #404040;
+	border:2px solid #e7e7e7;
+}
+.qua_portfolio_detail_pagi li a:hover {
+	color: #404040;
+	border:2px solid #f05a4d;
+}
+.qua-project-detail-sidebar p {
+	color:#121212;
+	border-bottom:1px solid #d1d1d1;
+}
+.qua-project-detail-sidebar p small {
+	color:#777777;
+}
+
+.qua-project-detail-sidebar .launch-qua-project a {
+	color: #f04b58;
+	border: 2px solid #f04b58;
+}
+.qua-project-detail-sidebar .launch-qua-project a:hover {
+	background-color: #f04b58;
+	color: #ffffff;
+	border: 2px solid #f04b58;
+}
+
+/***** Blog page *****************************************************************
+***************************************************************************************/
+
+
+.qua_post_title_wrapper h2 a {
+	color:#121212;
+}
+.qua_post_detail a {
+	color:#676767;
+}
+.qua_post_detail a > i {
+	color: #cccccc;
+}
+.qua_tags i {
+	color:#cccccc;
+}
+
+.qua_blog_post_content {
+	border-top:1px solid #e9e9e9;
+}
+.qua_blog_post_content p {
+	color:#6a6a6a;
+}
+
+a.qua_blog_btn , .more-link {
+	background-color: transparent;
+	border: 1px solid #f8504b;
+}
+a.qua_blog_btn:hover, .more-link:hover  , .more-link:focus ,
+a.qua_blog_btn:focus {
+	color: #ffffff;
+	border: 1px solid #f8504b;
+}
+.qua_blog_pagi a {
+	border: 2px solid #cccccc ;
+}
+.qua_blog_pagi a:hover, .qua_blog_pagi a.active {
+	border: 2px solid #f0584b;
+	color: #f0584b;
+}
+
+/***** Blog page with sidebar *****************************************************************
+***************************************************************************************/
+
+.qua_sidebar_widget , .widget  {
+	border:2px solid #e9e9e9;
+}
+.qua_sidebar_widget_title h2 , h2.widgettitle{
+	color: #121212;
+}
+
+/*** tag widget **/
+.qua_widget_tags a  , .tagcloud a {
+	border: 1px solid #dbdbdb ;
+	color: #6a6a6a;
+}
+.qua_widget_tags a:hover  , .tagcloud a:hover{
+	border: 1px solid #f0584b ;
+	background-color: #f0584b;
+}
+.qua_media_sidebar {
+border-bottom: 1px solid #e9e9e9;
+}
+.qua_media_sidebar span{
+	color:#6a6a6a;
+}
+.qua_media_sidebar span i{
+	color:#cccccc;
+	
+}
+.qua_media_sidebar span a{
+	color:#6a6a6a;
+}
+.qua_sidebar_link p , .widget ul li ,.qua_sidebar_widget ul li {
+	border-bottom: 1px solid #dedede;
+}
+.qua_sidebar_widget ul li:last-child ,.widget ul li:last-child {border-bottom: none;}
+.qua_sidebar_link p span{
+	background:#3c3c3c;
+	color:#ffffff;
+}
+.qua_sidebar_link p a , .widget ul li a , .qua_sidebar_widget ul li a{
+	color:#6a6a6a;
+}
+.qua_sidebar_tweeter_link{
+	border-bottom:1px solid #E9E9E9;
+}
+.tweet_info{
+	color:#6a6a6a;
+}
+.tweet_date{
+	color:#000;
+}
+
+
+/***** Blog Detail page *******/
+
+.qua_comment_title h3 {
+	color: #121212;
+	border-bottom: 1px solid #E9E9E9;
+}
+.qua_comment_title h3 > i {
+	color:#ccc;
+}
+.qua_comment_detail {
+	border: 2px solid #f3f3f3;
+}
+.qua_comment_detail p{
+	color:#6a6a6a;
+}
+.qua_comment_date{
+   color:#b3b3b3;
+}
+ 
+.qua_comment_form_section h2 {
+color: #121212;
+border-bottom: 1px solid #E0E0E0;
+}
+.qua_comment_form_section h2 > i {
+	color:#ccc;
+}
+.qua_con_input_control {
+	background-color: #FFFFFF;
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+}
+.qua_con_textarea_control {
+	background-color: #FFFFFF;
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+}
+.qua_con_input_control:focus, .qua_con_textarea_control:focus,
+.qua_contact_input_control:focus, .qua_contact_textarea_control:focus {
+  border-color: #f8504b;
+  -webkit-box-shadow: inset 0 0px 0px #f8504b, 0 0 5px #f8504b;
+          box-shadow: inset 0 0px 0px #f8504b, 0 0 5px #f8504b;
+}
+.qua_send_button , #qua_send_button {
+	border-color: #f8504b;
+}
+.qua_send_button:hover , #qua_send_button:hover  {
+	background-color: #ffffff;
+    border: 1px solid #f8504b;
+	color: #6a6a6a;
+}
+
+/*Icon Paragraph*/
+.qua_para_icons {
+    color: #6a6a6a;
+}
+.qua_para_icons i {
+    color: #121212;
+}
+
+/*Table Styles*/
+.table {
+	color: #777777;
+}
+blockquote { border-left :5px solid #f8504b ;}
+a{ color : #FA504B;} 
+
+/*Buttons Styles*/
+.qua_btn_white{
+	border: 1px solid #ebebeb;
+	color: #1a1a1a;
+}
+.qua_btn_pink{
+	background-color: #F22853;
+	text-shadow: 1px 1px 1px #3b3b3b;
+}
+.qua_btn_blue{
+	background-color: #0482bf;
+	text-shadow: 1px 1px 1px #3b3b3b;
+}
+.qua_btn_purple{
+	background-color: #800080;
+	text-shadow: 1px 1px 1px #3b3b3b;
+}
+.qua_btn_orange{
+	background-color: #ff8300;
+	text-shadow: 1px 1px 1px #3b3b3b;
+}
+.qua_btn_black{
+	background-color: #000000;
+	text-shadow: 1px 1px 1px #3b3b3b;
+}
+.qua_btn_red{
+	background-color: #db2723;
+	text-shadow: 1px 1px 1px #3b3b3b;
+}
+.qua_btn_green{
+	background-color: #2e9b05;
+	text-shadow: 1px 1px 1px #3b3b3b;
+}
+.qua_btn_golden{
+	background-color: #ffcc00;
+	color: #1a1a1a;
+}
+ 
+.qua_dropcape_simple span {
+    color: #3b3b3b;
+}
+
+.qua_alert_error {
+	background-color: #fce2e3;
+    border: 1px solid #FAC2C4;
+    color: #E54034;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.qua_alert_error .close {
+	color: #E54034;
+}
+button.close {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.qua_alert_warning {
+	background-color: #FDF4BD;
+    border: 1px solid #FED223;
+    color: #927E03;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.qua_alert_warning .close {
+	color: #927E03;
+}
+.qua_alert_success {
+	background-color: #E5EEC0;
+    border: 1px solid #C4D67E;
+    color: #576C01;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.qua_alert_success .close {
+	color: #576C01;
+}
+.qua_alert_info {
+	background-color: #D9EDF7;
+    border: 1px solid #BCE8F1;
+    color: #04567d;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.qua_alert_info .close {
+	color: #04567D;
+}
+/*Accordion & Tabs Styles*/
+
+.qua_short_tabs li a {
+    color: #3b3b3b;
+	border:1px solid #e8e8e8;
+}
+.qua_short_tabs li.active > a,
+.qua_short_tabs li > a:hover {
+    border: 1px solid #F8504B;
+}
+.qua_short_tabs_content{
+    border: 1px solid #dddddd;
+    color: #777777;
+}
+/*Image with Paragraph*/
+
+.image_para_title{
+	color: #555555;
+}
+.image_para_content{
+	color: #555555;
+}

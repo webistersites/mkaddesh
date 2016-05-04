@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: quality\n"
+"POT-Creation-Date: 2015-09-28 16:53+0530\n"
+"PO-Revision-Date: 2015-09-28 16:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\wordpress_new\\wp-content\\themes"
+"\\quality\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wordpress_new\\wp-content\\themes"
+"\\quality\n"
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/404.php:8
+msgid "Error 404"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/404.php:9
+msgid "Oops! Page not found"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/404.php:10
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/404.php:11
+msgid "Go to Homepage"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/archive.php:11
+msgid "Daily Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/archive.php:13
+msgid "Monthly Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/archive.php:15
+msgid "Yearly Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/archive.php:17
+msgid "Blog Archives"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/archive.php:62
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/author.php:48
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/category.php:48
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/index.php:50
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/single.php:48
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/tag.php:50
+msgid "Read More"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:17
+msgid "Comment navigation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:18
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:19
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:28
+msgid "You must be"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:28
+msgid "logged in"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:28
+msgid "to post a comment"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:33
+msgid "Name"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:34
+msgid "Email"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:42
+msgid "Comment"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:44
+msgid "Logged in as "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:44
+msgid " Log out?"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:46
+msgid "Post Comment"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/comments.php:49
+msgid "Leave a Reply"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions.php:39
+msgid "Page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions.php:54
+msgid "Primary Menu"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions.php:80
+msgid "Option panel"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/index-blog.php:26
+msgid "Posted By Admin"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/option-panel.php:4
+msgid ""
+"We have moved all the option inside the customiser, one of the powerfull "
+"utility of WordPress, with the help of this you can create your site live, "
+"ie customizer will provide you the real time preview. We have not changed "
+"any structure so you will still be able to access the previously configured "
+"data."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/option-panel.php:7
+msgid "View Customizer"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/tag.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:14
+msgid "Theme Feature Goes Here!"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:15
+msgid "Wordpress Premium Theme"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:16
+msgid "Fully Responsive Theme Amazing Design."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:19
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:62
+msgid ""
+"We provide best WordPress solutions for your business. Thanks to our "
+"framework you will get more happy customers."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:22
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:101
+msgid "Fully Responsive"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:23
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:164
+msgid "SEO Friendly"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:24
+msgid "Easy Customization"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:25
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:288
+msgid "Well Documentation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:32
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:119
+msgid "Lorem Ipsum which looks reason able. The generated Lorem Ipsum is "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:33
+msgid ""
+"Lorem Ipsum Lorem Ipsum which looks reason able. The generated Lorem Ipsum "
+"is which looks reason able. The generated Lorem Ipsum is "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:34
+msgid "fLorem Ipsum which looks reason able. The generated Lorem Ipsum is t"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:35
+msgid "Lorem Ipsum which looks reason able. The generated Lorem Ipsum is-o"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:38
+msgid "Featured Portfolio Projects"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:39
+msgid ""
+"Maecenas sit amet tincidunt elit. Pellentesque habitant morbi tristique "
+"senectus et netus et Nulla facilisi."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/theme_setup_data.php:55
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-blog.php:38
+msgid "Latest <span>From</span> Blog"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/commentbox/comment-function.php:12
+msgid "Reply"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/commentbox/comment-function.php:21
+msgid "at"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/commentbox/comment-function.php:29
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-blog.php:7
+msgid "Blog Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-blog.php:27
+msgid "Enable Blog on HOME Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-blog.php:47
+msgid "Blog Heading"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-copyright.php:8
+msgid "Footer Copyright Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-copyright.php:18
+#, php-format
+msgid ""
+"<p>@ Copyright 2014 Quality Center Design And Developed by <a href=\"%1$s\" "
+"target=\"_blank\">WordPress Theme</a><p>"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-copyright.php:27
+msgid "Copyright text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:8
+msgid "Header Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:14
+msgid "Site favicon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:16
+msgid "Upload a favicon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:28
+msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:34
+msgid "Header Logo setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:52
+msgid "Upload a 150x150 for Logo Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:71
+msgid "Enable/Disabe Logo"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:92
+msgid "Enter Logo Width"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:111
+msgid "Enter Logo Height"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:133
+msgid "Show Logo text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:141
+msgid "Custom css"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-home.php:154
+msgid "Custom css snippet:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:13
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:257
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:340
+msgid "http://webriti.com/quality/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:13
+msgid "UPGRADE  TO PRO"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:20
+msgid "UPGRADE  TO PRO VERSION"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:33
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:63
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:96
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:272
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:355
+msgid "Discover quality Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:48
+msgid "https://wordpress.org/support/view/theme-reviews/quality#postform/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:48
+msgid "ADD YOUR REVIEW"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:77
+msgid "http://webriti.com/help/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:77
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-pro.php:81
+msgid ""
+"The Pro Version gives you more opportunities to enhance your site and "
+"business. In order to create effective online presence one have to showcase "
+"their wide range of products, have to use contact us enquiry form, have to "
+"make effective about us page, have to introduce team members, etc etc . The "
+"pro version will give it all. Buy the pro version and give us a chance to "
+"serve you better. "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:8
+msgid "Project Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:14
+msgid "Home Project Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:34
+msgid "Enable Home Project Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:44
+msgid "Featured Portfolio Project"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:51
+msgid "Project Section Heading"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:59
+msgid ""
+"aecenas sit amet tincidunt elit. Pellentesque habitant morbi tristique "
+"senectus et netus et Nulla facilisi."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:66
+msgid "Project Section Tagline"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:75
+msgid "Home Project One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:92
+msgid "Project One Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:120
+msgid "Home Project two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:134
+msgid "Project Two Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:160
+msgid "Home Project three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:174
+msgid "Project three Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:202
+msgid "Home Project Four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:216
+msgid "Project four Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:241
+msgid "Add More Project"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:254
+msgid "Want to add more projects and categorization than upgrade to pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-project.php:257
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:340
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:8
+msgid "Service Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:13
+msgid "Service Heading "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:33
+msgid "Enable Service Section On HOME Page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:44
+msgid "What We Do"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:53
+msgid "Service Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:70
+msgid "Service Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:79
+msgid "Service Section one"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:93
+msgid "Service Icon One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:110
+msgid "Service Title One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:128
+msgid "Service Text One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:136
+msgid "Service Section Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:155
+msgid "Service Icon two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:173
+msgid "Title two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:182
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consec tetur "
+"adipisicing elit dignissim dapib tumst."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:191
+msgid "Service Text Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:198
+msgid "Service Section Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:217
+msgid "Service Icon Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:227
+msgid "Easy to Use"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:236
+msgid "Service Text Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:245
+msgid "fLorem Ipsum which looks reason able. The generated Lorem Ipsum is t."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:254
+msgid "Description three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:262
+msgid "Service Section Four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:279
+msgid "Icon Four  Like: fa-group"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:297
+msgid "Title four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:306
+msgid "Lorem Ipsum which looks reason able. The generated Lorem Ipsum is-o."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:315
+msgid "Description four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:324
+msgid "Add More Service"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-service.php:337
+msgid "Want to add more services, than upgrade to pro version"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-slider.php:8
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-slider.php:14
+msgid "Banner Image Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-slider.php:48
+msgid "Banner Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-slider.php:63
+msgid "Banner Sub Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/customizer/customizer-slider.php:78
+msgid "Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/widget/custom-sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_new\wp-content\themes\quality/functions/widget/custom-sidebar.php:8
+msgid "The primary widget area"
+msgstr ""

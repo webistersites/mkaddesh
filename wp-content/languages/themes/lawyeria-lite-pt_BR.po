@@ -1,0 +1,820 @@
+# Translation of Lawyeria Lite in Portuguese (Brazil)
+# This file is distributed under the same license as the Lawyeria Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-28 19:26:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Lawyeria Lite\n"
+
+#. Theme Name of the plugin/theme
+msgid "Lawyeria Lite"
+msgstr "Lawyeria Lite"
+
+#. Description of the plugin/theme
+msgid "Lawyeria Lite is a free Lawyer WordPress Theme, super clean corporate and fully responsive design.It works for any small business, especially attorney business and law firm. Can be used to build a lawyer website or any small business site, the responsive homepage contact form along with the email/phone highly visible generate a great conversion rate. You can get free support in https://themeisle.com/forums/forum/lawyeria-lite/ and check the demo at http://themeisle.com/demo/?theme=Lawyeria%20Lite"
+msgstr "Lawyeria Lite é um tema WordPress gratuito destinado a advogados, com um design corporativo claro e limpo, totalmente responsivo. Funciona bem para pequenos negócios em qualquer área, especialmente para escritórios de advocacia e consultoria. O formulário de contato responsivo na página inicial, com o e-mail e telefone claramente visíveis, gera uma grande taxa de conversão. Você pode obter suporte gratuito em https://themeisle.com/forums/forum/lawyeria-lite/ e visualizar a demonstração do tema em http://themeisle.com/demo/?theme=Lawyeria%20Lite"
+
+#: class-tgm-plugin-activation.php:3362
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Atualizando o plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nenhum plug-in foi selecionado para ser instalado. Nenhuma ação foi realizada."
+
+#: class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Nenhum plug-in foi selecionado para ser atualizado. Nenhuma ação foi realizada."
+
+#: class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "Não há plug-ins disponíveis para serem instalados neste momento."
+
+#: class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "Nenhum plug-in está disponível para ser atualizado neste momento."
+
+#: class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nenhum plug-in foi selecionado para ser ativado. Nenhuma ação foi realizada."
+
+#: class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "Não há plug-ins disponíveis para serem ativados neste momento."
+
+#: class-tgm-plugin-activation.php:2491
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "Atualizar %2$s"
+
+#: class-tgm-plugin-activation.php:2500
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Ativar %2$s"
+
+#: class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensagem do autor do plug-in sobre a atualização:"
+
+#: class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "Atualizar"
+
+#: class-tgm-plugin-activation.php:2283
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Para instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para instalar <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> atualização disponível"
+msgstr[1] "<span class=\"count\">(%s)</span> atualizações disponíveis"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Ativar <span class=\"count\">(%s)</span>"
+msgstr[1] "Ativar <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconhecida"
+
+#: class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "Versão instalada:"
+
+#: class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "Versão mínima exigida:"
+
+#: class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr "Versão disponível:"
+
+#: class-tgm-plugin-activation.php:2422
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr "Nenhum plug-in para instalar, atualizar ou ativar. <a href=\"%1$s\">Retornar ao Painel</a>"
+
+#: class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "Versão"
+
+#: class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nenhuma ação foi realizada. O plug-in %1$s já estava ativado."
+
+#: class-tgm-plugin-activation.php:402
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "O plug-in não foi ativado. É necessária uma versão mais atualizada do %s para este tema. Por favor, atualize o plug-in. "
+
+#: class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Por favor, contate o administrador deste site para qualquer auxílio."
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Este plug-in precisa ser atualizado para estar compatível com o tema."
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Atualização Exigida"
+
+#: class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Use a variável de configuração parent_slug em vez disso."
+
+#: class-tgm-plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "O pacote remoto do plug-in não contém uma pasta com o \"slug\" desejado e não foi possível renomeá-lo."
+
+#: class-tgm-plugin-activation.php:935 class-tgm-plugin-activation.php:938
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Por favor, entre em contato com o desenvolvedor do plug-in e solicite um pacote de acordo com as diretrizes do WordPress."
+
+#: class-tgm-plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "O pacote remoto do plug-in consiste de mais de um arquivo, mas os arquivos não estão reunidos em uma pasta."
+
+#: class-tgm-plugin-activation.php:1116 class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "e"
+
+#: class-tgm-plugin-activation.php:1881
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr "Origem Externa"
+
+#: class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "Ativos"
+
+#: class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "Atualização exigida não disponível"
+
+#: class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "É necessária uma atualização."
+
+#: class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "Atualização recomendada"
+
+#: class-tgm-plugin-activation.php:2235
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2280
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:347
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Desculpas, mas você não tem as permissões corretas para instalar o plug-in %1$s."
+msgstr[1] "Desculpas, mas você não tem as permissões corretas para instalar os plug-ins %1$s."
+
+#: class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Há uma atualização disponível para %1$s."
+msgstr[1] "Há atualizações disponíveis para os seguintes plug-ins: %1$s."
+
+#: class-tgm-plugin-activation.php:362
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Desculpas, mas você não tem as permissões corretas para atualizar o plug-in %1$s."
+msgstr[1] "Desculpas, mas você não tem as permissões corretas para atualizar os plug-ins %1$s."
+
+#: class-tgm-plugin-activation.php:377
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Desculpas, mas você não tem as permissões corretas para ativar o plug-in %1$s."
+msgstr[1] "Desculpas, mas você não tem as permissões corretas para ativar os plug-ins %1$s."
+
+#: class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Iniciar atualização do plug-in"
+msgstr[1] "Iniciar atualização dos plug-ins"
+
+#: class-tgm-plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comece ativar plugin"
+msgstr[1] "Comece ativar plugins"
+
+#: class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Retornar para o Painel"
+
+#: single.php:41
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: includes/customizer.php:377
+msgid "View PRO version"
+msgstr "Conheça a versão PRO"
+
+#: includes/customizer.php:378
+msgid "Leave a review ( it will help us )"
+msgstr "Avalie o tema (vai nos ajudar!)"
+
+#. #-#-#-#-#  lawyeria-lite.pot (Lawyeria Lite 1.1.6)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: index.php:12
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/customizer.php:304
+msgid "404 - Title:"
+msgstr "Página 404 - Título:"
+
+#: includes/customizer.php:314
+msgid "404 - Content"
+msgstr "Página 404 - Conteúdo:"
+
+#: includes/customizer.php:376
+msgid "Documentation"
+msgstr "Documentação"
+
+#: includes/customizer.php:103
+msgid "Lorem ipsum dolor sit amet, consectetur adipscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipscing elit."
+
+#: includes/customizer.php:105
+msgid "Subheader Title:"
+msgstr "Título do destaque:"
+
+#: includes/customizer.php:113
+msgid "Ut fermentum aliquam neque, sit amet molestie orci porttitor sit amet. Mauris venenatis et tortor ut ultrices. Nam a neque venenatis, tristique lacus id, congue augue. In id tellus lacus. In porttitor sagittis tellus nec iaculis. Nunc sem odio, placerat a diam vel, varius."
+msgstr "Ut fermentum aliquam neque, sit amet molestie orci porttitor sit amet. Mauris venenatis et tortor ut ultrices. Nam a neque venenatis, tristique lacus id, congue augue. In id tellus lacus. In porttitor sagittis tellus nec iaculis. Nunc sem odio, placerat a diam vel, varius."
+
+#: includes/customizer.php:115
+msgid "Subheader Content:"
+msgstr "Conteúdo do destaque:"
+
+#: includes/customizer.php:125
+msgid "Lorem Ipsum is simply dummy text of the printing and type setting industry."
+msgstr "Lorem Ipsum is simply dummy text of the printing and type setting industry."
+
+#: includes/customizer.php:127
+msgid "Quote:"
+msgstr "Citação:"
+
+#: includes/customizer.php:136
+msgid "Subheader Background:"
+msgstr "Imagem de fundo do destaque:"
+
+#: includes/customizer.php:146
+msgid "Box (first) - Icon:"
+msgstr "Primeiro box - Ícone:"
+
+#: includes/customizer.php:154
+msgid "Lorem"
+msgstr "Lorem"
+
+#: includes/customizer.php:156
+msgid "Box (first) - Title:"
+msgstr "Primeiro box - Título:"
+
+#: includes/customizer.php:164 includes/customizer.php:196
+#: includes/customizer.php:228
+msgid "Go to Appearance - Customize, to add content."
+msgstr "Vá em Aparência - Personalizar para adicionar conteúdo."
+
+#: includes/customizer.php:166
+msgid "Box (first) - Content:"
+msgstr "Primeiro box - Conteúdo:"
+
+#: includes/customizer.php:178
+msgid "Box (two) - Icon:"
+msgstr "Segundo box - Ícone:"
+
+#: includes/customizer.php:186
+msgid "Ipsum"
+msgstr "Ipsum"
+
+#: includes/customizer.php:188
+msgid "Box (two) - Title:"
+msgstr "Segundo box - Título:"
+
+#: includes/customizer.php:198
+msgid "Box (two) - Content:"
+msgstr "Segundo box - Conteúdo:"
+
+#: includes/customizer.php:210
+msgid "Box (three) - Icon:"
+msgstr "Terceiro box - Ícone:"
+
+#: includes/customizer.php:218
+msgid "Dolor"
+msgstr "Dolor"
+
+#: includes/customizer.php:220
+msgid "Box (three) - Title:"
+msgstr "Terceiro box - Título:"
+
+#: includes/customizer.php:230
+msgid "Box (three) - Content:"
+msgstr "Terceiro box - Conteúdo:"
+
+#: includes/customizer.php:242
+msgid "The Content - Image:"
+msgstr "O conteúdo - Imagem:"
+
+#: includes/customizer.php:250
+msgid "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis."
+msgstr "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis."
+
+#: includes/customizer.php:252
+msgid "The Content - Title:"
+msgstr "O conteúdo - Título:"
+
+#: includes/customizer.php:260
+msgid "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim."
+msgstr "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim."
+
+#: includes/customizer.php:262
+msgid "The Content - Content:"
+msgstr "O conteúdo - Texto:"
+
+#: includes/customizer.php:275
+msgid "Frontpage widgets"
+msgstr "Widgets da Página Inicial"
+
+#: includes/customizer.php:276
+msgid " Check out the <a href=\"https://themeisle.com/themes/lawyeria-attorney-lawyer-wordpress-theme/\" target=\"_blank\" style=\"color:red;\">PRO version</a> <br>for custom widgets like \"Practice Area\", \"Our Lawyers\" and \"Testimonials\"!  "
+msgstr "Conheça a <a href=\"https://themeisle.com/themes/lawyeria-attorney-lawyer-wordpress-theme/\" target=\"_blank\" style=\"color:red;\">versão Pro</a> e tenha widgets personalizados de conteúdo como \"Área de Atuação\", \"Nossa Equipe\" e \"Depoimentos\"!<br>"
+
+#: includes/customizer.php:296
+msgid "404 Page"
+msgstr "Página 404"
+
+#: includes/customizer.php:302
+msgid "404 Error"
+msgstr "Erro 404"
+
+#: includes/customizer.php:67
+msgid "Logo:"
+msgstr "Logotipo:"
+
+#: includes/customizer.php:75
+msgid "Contact us now"
+msgstr "Entre em contato agora"
+
+#: includes/customizer.php:77
+msgid "Contact Title:"
+msgstr "Título para a informação de contato:"
+
+#: includes/customizer.php:87
+msgid "Contact telephone:"
+msgstr "Telefone de contato:"
+
+#: includes/customizer.php:97
+msgid "Front Page"
+msgstr "Página Inicial"
+
+#: includes/customizer.php:24
+msgid "ThemeIsle theme notes"
+msgstr "Informações sobre o Tema"
+
+#: includes/customizer.php:25
+msgid ""
+"Thank you for being part of this! We've spent almost 6 months building ThemeIsle without really knowing if anyone will ever use a theme or not, so we're very grateful that you've decided to work with us. Wanna <a href=\"http://themeisle.com/contact/\" target=\"_blank\">say hi</a>?\n"
+"\t\t<br/><br/> <a href=\"http://demo.themeisle.com/lawyeria-lite/\" target=\"_blank\"> View Theme Demo</a> | \n"
+"\t\t<a href=\"http://themeisle.com/forums/forum/lawyeria-lite\" target=\"_blank\">Get theme support</a><br/><br/><a href=\"http://themeisle.com/documentation-lawyeria-lite\" target=\"_blank\">Documentation</a><br><br><a href=\"https://themeisle.com/themes/lawyeria-attorney-lawyer-wordpress-theme/\" target=\"_blank\" style=\"color:red;\">Upgrade to PRO</a> "
+msgstr ""
+"Muito obrigado por fazer parte disso! Gastamos cerca de seis meses montando a ThemeIsle sem realmente saber se alguém sequer iria querer usar algum tema ou não. Por isso, somos imensamente gratos por você optar pelo nosso trabalho. Não quer <a href=\"http://themeisle.com/contact/\" target=\"_blank\">mandar um alô</a>?\n"
+"<br/><br/> <a href=\"http://demo.themeisle.com/lawyeria-lite/\" target=\"_blank\"> Demonstração do Tema</a> | <a href=\"http://themeisle.com/forums/forum/lawyeria-lite\" target=\"_blank\">Fórum de Suporte</a><br/><br/><a href=\"http://themeisle.com/documentation-lawyeria-lite\" target=\"_blank\">Documentação do Tema</a><br><br><a href=\"https://themeisle.com/themes/lawyeria-attorney-lawyer-wordpress-theme/\" target=\"_blank\" style=\"color:red;\">ADQUIRA A VERSÃO PRO</a> "
+
+#: includes/customizer.php:41
+msgid "Unlimited colors"
+msgstr "Cores sem limites"
+
+#: includes/customizer.php:42
+msgid " Check out the <a href=\"https://themeisle.com/themes/lawyeria-attorney-lawyer-wordpress-theme/\" target=\"_blank\" style=\"color:red;\">PRO version</a> <br>for full control over the color scheme !  "
+msgstr "Confira a <a href=\"https://themeisle.com/themes/lawyeria-attorney-lawyer-wordpress-theme/\" target=\"_blank\" style=\"color:red;\">versão Pro</a> para ter o controle total sobre o esquema de cores!<br>"
+
+#: includes/customizer.php:59
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: header.php:66
+msgid "Open Menu"
+msgstr "Clique para o menu"
+
+#: functions.php:387
+msgid "Page %s"
+msgstr "Página: %s"
+
+#: functions.php:361
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Todos plug-ins foram instalados e ativados com sucesso. %s"
+
+#: class-tgm-plugin-activation.php:336 functions.php:348
+msgid "Something went wrong with the plugin API."
+msgstr "Alguma coisa deu errada com a API do plugin."
+
+#: functions.php:225
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: functions.php:219
+msgid "Edit"
+msgstr "Editar"
+
+#: functions.php:213
+msgid "<span>%s</span>"
+msgstr "<span>%s</span>"
+
+#: functions.php:216
+msgid "%1$s at %2$s"
+msgstr "%1$s às %2$s"
+
+#: functions.php:203
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:83
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:158
+msgid "General Sidebar"
+msgstr "Barra Lateral Geral"
+
+#: functions.php:159
+msgid "Use this sidebar to display widgets in your website, including posts and pages."
+msgstr "Use essa barra lateral para mostrar widgets em seu website, incluindo posts e páginas."
+
+#: functions.php:178
+msgid "Footer Sidebar"
+msgstr "Barra Lateral do Rodapé"
+
+#: functions.php:179
+msgid "In this sidebar you cand add max. three widgets."
+msgstr "Nessa barra, você pode adicionar no máximo três widgets."
+
+#: functions.php:203
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:27
+msgid "This menu will appear in header."
+msgstr "Este menu irá aparecer no cabeçalho."
+
+#. Translators: If there are characters in your language that are not supported
+#. by Lora, translate this to 'off'. Do not translate into your own language.
+#: functions.php:77
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "ativa"
+
+#: comments.php:85
+msgid "Leave a comment to %s"
+msgstr "Deixe um comentário para %s"
+
+#: footer.php:15
+msgid "The sidebar is not active."
+msgstr "A barra lateral não está ativa."
+
+#: footer.php:19
+msgid "powered by"
+msgstr "baseado no"
+
+#: comments.php:85
+msgid "Leave a comment"
+msgstr "Deixe um comentário"
+
+#: comments.php:85
+msgid "Submit"
+msgstr "Enviar"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#: comments.php:31 comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr "Comentários recentes &rarr;"
+
+#: comments.php:30 comments.php:42
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários antigos"
+
+#: comments.php:29 comments.php:41
+msgid "Comment navigation"
+msgstr "Navegação de comentários"
+
+#: comments.php:23
+msgid "Leave a Comment"
+msgstr "Deixe um comentário"
+
+#: comments.php:17
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Um comentário"
+msgstr[1] "%1$s comentários"
+
+#: class-tgm-plugin-activation.php:3378
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando plug-in %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "Todas as instalações foram completadas."
+
+#: class-tgm-plugin-activation.php:3376
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
+
+#: class-tgm-plugin-activation.php:3365
+msgid "The installation of %1$s failed."
+msgstr "A instalação do %1$s falhou."
+
+#: class-tgm-plugin-activation.php:3364
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Um erro ocorreu enquanto se instalava %1$s: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação está começando. Esse processo pode demorar um pouco em alguns servidores, então por favor seja paciente."
+
+#: class-tgm-plugin-activation.php:3372
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando e Ativando os Plugins %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "Todas instalações e ativações foram completadas."
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "Ocultar detalhes"
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "Exibir detalhes"
+
+#: class-tgm-plugin-activation.php:3370
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado e ativado com sucesso."
+
+#: class-tgm-plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação e ativação está começando. Esse processo pode demorar um pouco em alguns servidores, então por favor seja paciente."
+
+#: class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "Ativação do plug-in falhou."
+
+#: class-tgm-plugin-activation.php:400 class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr "O seguinte plug-in foi ativado com sucesso:"
+
+#: class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "Ativar"
+
+#: class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "Instalar"
+
+#: class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "Status"
+
+#: class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "Tipo"
+
+#: class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "Origem"
+
+#: class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "Plug-in"
+
+#: class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "Instalado mas não ativado"
+
+#: class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "Não instalado"
+
+#: class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "Obrigatório"
+
+#: class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "Repositório Wordpress"
+
+#: class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "Incluído no pacote"
+
+#: class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Dispensar este aviso"
+
+#: class-tgm-plugin-activation.php:828 class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "Retornar para o Painel"
+
+#: class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos plug-ins foram instalados e ativados com sucesso. %1$s"
+
+#: class-tgm-plugin-activation.php:399 class-tgm-plugin-activation.php:3029
+#: functions.php:360
+msgid "Plugin activated successfully."
+msgstr "Plugin ativado com sucesso."
+
+#: class-tgm-plugin-activation.php:397 functions.php:359
+msgid "Return to Required Plugins Installer"
+msgstr "Retornar para o instalador de Plugins Necessários"
+
+#: functions.php:358
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Ativar plugin instalado"
+msgstr[1] "Ativar plugins instalados"
+
+#: class-tgm-plugin-activation.php:382 functions.php:357
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comece a instalação de plugins"
+msgstr[1] "Comece a instalação de plugins"
+
+#: functions.php:356
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Desculpas, mas você não tem as permissões corretas para atualizar o plug-in %s. Contate o administrador do site para realizar a atualização deste plug-in."
+msgstr[1] "Desculpas, mas você não tem as permissões corretas para atualizar os plug-ins %s. Contate o administrador do site para realizar a atualização destes plug-ins."
+
+#: class-tgm-plugin-activation.php:352 functions.php:355
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "O seguinte plugin precisa ser atualizado para a versão mais recente para garantir o máximo de compatibilidade com este tema: %1$s."
+msgstr[1] "Os seguintes plugins precisam ser atualizados para a sua versão mais recente para garantir a máxima compatibilidade com este tema: %1$s."
+
+#: functions.php:354
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Desculpe, mas você não tem as permissões corretas para ativar o plugin %s. Contate o administrador para obter ajuda em obter o plugin ativado."
+msgstr[1] "Desculpe, mas você não tem as permissões corretas para ativar plugins %s. Contate o administrador para obter ajuda em obter os plugins ativados."
+
+#: class-tgm-plugin-activation.php:372 functions.php:353
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plug-in recomendado é atualmente inativo: %1$s."
+msgstr[1] "Os seguintes plugins recomendadas são atualmente inativo: %1$s."
+
+#: class-tgm-plugin-activation.php:367 functions.php:352
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plugin necessário é atualmente inativo: %1$s."
+msgstr[1] "Os seguintes plugins necessários são atualmente inativo:  %1$s."
+
+#: functions.php:351
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Desculpe, mas você não tem as permissões corretas para instalar o plugin% s. Contato com o administrador do site para obter ajuda sobre como tirar o plugin instalado."
+msgstr[1] "Desculpe, mas você não tem as permissões corretas para instalar plugins% s. Contato com o administrador do site para obter ajuda em obter os plugins instalados."
+
+#: class-tgm-plugin-activation.php:342 functions.php:350
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema requer os seguintes plug-ins:%1$s."
+msgstr[1] "Este tema requer os seguintes plug-ins:%1$s."
+
+#: class-tgm-plugin-activation.php:337 functions.php:349
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema requer o seguinte plug-in:%1$s."
+msgstr[1] "Este tema requer os seguintes plug-ins:%1$s."
+
+#: class-tgm-plugin-activation.php:335 functions.php:347
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin: %s"
+
+#: class-tgm-plugin-activation.php:334 functions.php:346
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: class-tgm-plugin-activation.php:333 functions.php:345
+msgid "Install Required Plugins"
+msgstr "Instalar plug-ins necessários "
+
+#: archive.php:67 index.php:52 search.php:52
+msgid "Prev"
+msgstr "Anterior"
+
+#: archive.php:68 index.php:53 page-blog.php:64 search.php:53
+msgid "Next"
+msgstr "Seguinte"
+
+#: archive.php:64 attachment.php:27 front-page.php:33 index.php:49
+#: page-blog.php:59 page.php:33 search.php:49 single.php:57
+msgid "Sorry, no posts matched your criteria."
+msgstr "Nenhum post encontrado com estes critérios."
+
+#: archive.php:60 index.php:45 page-blog.php:54 page-blog.php:55 search.php:45
+msgid "Read More"
+msgstr "Ler mais"
+
+#: archive.php:47 index.php:32 page-blog.php:42 search.php:32 single.php:27
+msgid "% comments"
+msgstr "% Comentários"
+
+#: archive.php:47 index.php:32 page-blog.php:42 search.php:32 single.php:27
+msgid "Posted by:"
+msgstr "Publicado por:"
+
+#: archive.php:47 index.php:32 page-blog.php:42 search.php:32 single.php:27
+msgid "In category:"
+msgstr "Na categoria:"
+
+#: archive.php:47 index.php:32 page-blog.php:42 search.php:32 single.php:27
+msgid "No responses"
+msgstr "Sem respostas"
+
+#: archive.php:47 index.php:32 page-blog.php:42 search.php:32 single.php:27
+msgid "One comment"
+msgstr "Um comentário"
+
+#: archive.php:25
+msgid "Author: "
+msgstr "Autor:"
+
+#: archive.php:23
+msgid "Category: "
+msgstr "Categoria:"
+
+#: archive.php:21
+msgid "Yearly Archives: %s."
+msgstr "Arquivos por ano: %s."
+
+#: archive.php:21
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:19
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:19
+msgid "Monthly Archives: %s"
+msgstr "Arquivos mensais:%s"
+
+#: archive.php:17
+msgid "Daily Archives: %s"
+msgstr "Arquivos diários:%s"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/lawyeria-lite/"
+msgstr "https://themeisle.com/themes/lawyeria-lite/"
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"

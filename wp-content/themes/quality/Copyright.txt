@@ -1,0 +1,19 @@
+Quality Theme Resources and Copyrights Informations:-
+	CSS
+		Font Awesome Icons and CSS => http://fortawesome.github.io/Font-Awesome/
+
+		Open-Sans (GoogleWeb Fonts) Fonts => http://www.google.com/fonts/specimen/Open+Sans
+
+
+		Roboto (GoogleWeb Fonts) Fonts => https://www.google.com/fonts/specimen/Roboto
+
+
+		Raleway (GoogleWeb Fonts) Fonts =>https://www.google.com/fonts/specimen/Raleway
+
+	JavaScripts 
+		
+		Bootstrap.min.js => https://github.com/twbs/bootstrap/releases/download/v3.1.1/bootstrap-3.1.1-dist.zip
+		
+	Images
+		Static Home Feature Image => http://dummyimage.com/1600x600/deb6de/1f2136
+   	
